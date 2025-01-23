@@ -132,10 +132,10 @@ Les contributions sont **les bienvenues** ! Voici comment contribuer :
 
 ## ✨ Auteurs et remerciements
 
-Ce projet est développé par **[Votre Nom/Équipe](https://github.com/votre-username)**. Un grand merci à tous les contributeurs et bêta-testeurs ! 🙏  
+Ce projet est développé par **[Votre qoyri](https://github.com/qoyri)**. Un grand merci à tous les contributeurs et bêta-testeurs ! 🙏  
 
 ---
 
 <br/>
 
-> Fait avec ❤️ par votre équipe StageUp.
+> Fait avec ❤️ par qoyri.
