@@ -1,0 +1,101 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:background="@color/black">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <!-- Image avec coins arrondis -->
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="4dp">
+
+            <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Détails de l'entreprise -->
+        <TextView
+                android:id="@+id/nomTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:textColor="@color/white"
+                android:gravity="center" />
+
+        <TextView
+                android:id="@+id/adresseTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adresse placeholder"
+                android:textColor="@color/white"
+                android:layout_marginTop="8dp"
+                android:padding="8dp"
+                android:background="@drawable/text_background" />
+
+        <TextView
+                android:id="@+id/contactTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact placeholder"
+                android:textColor="@color/white"
+                android:layout_marginTop="8dp"
+                android:padding="8dp"
+                android:background="@drawable/text_background" />
+
+        <TextView
+                android:id="@+id/descriptionTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description placeholder"
+                android:textColor="@color/gray"
+                android:layout_marginTop="16dp"
+                android:lineSpacingExtra="4dp"
+                android:padding="8dp"
+                android:background="@drawable/text_background" />
+
+        <!-- Bouton pour contacter -->
+        <Button
+                android:id="@+id/btnContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contacter l'entreprise"
+                android:textColor="@color/white"
+                android:background="@color/primary_color"
+                android:layout_marginTop="16dp"
+                android:padding="12dp"
+                android:textStyle="bold" />
+
+        <!-- Section des stages -->
+        <TextView
+                android:id="@+id/stageTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Stages disponibles"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:visibility="gone"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/white"
+                android:paddingBottom="4dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/stageRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginTop="8dp" />
+    </LinearLayout>
+</ScrollView>
