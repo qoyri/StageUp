@@ -1,6 +1,5 @@
 # 🌟 StageUp - Plateforme de Gestion de Stages
 
-![StageUp](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjZjZmMzNTI1OTllZjMwMTExOGNiNmM2MTc5MDYxOTYwMTM4ZmI3MSZjdD1n/3o6Yg4ItnU6clrNLiE/giphy.gif)
 
 Bienvenue sur **StageUp**, une application Android moderne qui simplifie la gestion des stages pour les entreprises et les étudiants ! 🎓👩‍💻
 
@@ -29,7 +28,6 @@ Bienvenue sur **StageUp**, une application Android moderne qui simplifie la gest
 
 | 🏠 Home Fragment (Entreprises/Étudiants) | 💬 Message Fragment |
 |-----------------------------------------|---------------------|
-| ![Home View](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGVkMGU2YTI3MTZmYWZiOWUxYjNhY2UxZThjZjRkYzIwMjlhYjAzOSZjdD1n/tlKMCFRsf2KFIwd1LP/giphy.gif) | ![Message View](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGJiM2IyZTQyNTBmOTYyMjI5NWMxZmQ2ODFhMTlkYmI2YWIxZTNiNiZjdD1n/gfC91aFbe1ivzDNxNq/giphy.gif) |
 
 ---
 
